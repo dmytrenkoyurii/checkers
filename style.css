@@ -1,0 +1,291 @@
+#chessboard {
+	width: 800px;
+	height: 800px;
+	margin: 50px;
+	border: 20px;
+}
+
+.white {
+	float: left;
+	width: 80px;
+	height: 80px;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #eee;
+}
+
+.black {
+	float: left;
+	width: 80px;
+	height: 80px;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #999;
+}
+
+.letter {
+	float: left;
+	display: table-cell;
+	width: 80px;
+	height: 80px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.number {
+	float: left;
+	display: table-cell;
+	width: 80px;
+	height: 80px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+}
+/*Перший рядок. Чорні*/
+#blackchess1 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 135px;
+	left: 222.5px;
+}
+
+#blackchess2 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 135px;
+	left: 382.5px;
+}
+
+#blackchess3 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 135px;
+	left: 542.5px;
+}
+
+#blackchess4 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 135px;
+	left: 702.5px;
+}
+/*Другий рядок. Чорні*/
+#blackchess5 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 215px;
+	left: 142.5px;
+}
+
+#blackchess6 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 215px;
+	left: 302.5px;
+}
+
+#blackchess7 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 215px;
+	left: 462.5px;
+}
+
+#blackchess8 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 215px;
+	left: 622.5px;
+}
+/*Третій рядок. Чорні*/
+#blackchess9 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 295px;
+	left: 222.5px;
+}
+
+#blackchess10 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 295px;
+	left: 382.5px;
+}
+
+#blackchess11 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 295px;
+	left: 542.5px;
+}
+
+#blackchess12 {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	top: 295px;
+	left: 702.5px;
+}
+
+/*Перший рядок. Білі*/
+#whitechess1 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 695px;
+	left: 142.5px;
+}
+
+#whitechess2 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 695px;
+	left: 302.5px;
+}
+
+#whitechess3 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 695px;
+	left: 462.5px;
+}
+
+#whitechess4 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 695px;
+	left: 622.5px;
+}
+
+/*Другий рядок. Білі*/
+#whitechess5 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 615px;
+	left: 222.5px;
+}
+
+#whitechess6 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 615px;
+	left: 382.5px;
+}
+
+#whitechess7 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 615px;
+	left: 542.5px;
+}
+
+#whitechess8 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 615px;
+	left: 702.5px;
+}
+
+/*Третій рядок. Білі*/
+#whitechess9 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 535px;
+	left: 142.5px;
+}
+
+#whitechess10 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 535px;
+	left: 302.5px;
+}
+
+#whitechess11 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 535px;
+	left: 462.5px;
+}
+
+#whitechess12 {
+	width: 70px;
+	height: 70px;
+	background: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 535px;
+	left: 622.5px;
+}
